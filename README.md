@@ -67,6 +67,11 @@ gugugu...
 
 ___
 
+## 0.授权方式
+请求的Header中添加：
+key：Authorization
+value：登录接口中返回的auth_data字段内容
+
 ## Passport
 
 ### 1.获取配置
