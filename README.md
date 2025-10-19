@@ -667,7 +667,7 @@ ___
 
 ### 3.订单详情
 
-> `GET` /user/order/details?trade_no={trade_no}
+> `GET` /user/order/detail?trade_no={trade_no}
 
 - 请求参数 `query`
 
