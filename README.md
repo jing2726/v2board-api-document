@@ -768,14 +768,14 @@ ___
 
 ```json
 {
-  "cycle": "month_price",
+  "period": "month_price",
   "plan_id": 1
 }
 ```
 
 | 参数名     | 类型     | 描述   |
 |---------|--------|------|
-| cycle   | string | 订阅周期 |
+| period   | string | 订阅周期 |
 | plan_id | number | 订阅id |
 
 - 成功返回示例 `json`
@@ -785,7 +785,12 @@ ___
   "data": "xxx"
 }
 ```
-
+- 失败返回实例，返回状态码500
+```json
+{
+    "message": "您有未付款或开通中的订单，请稍后再试或将其取消"
+}
+```
 | 参数名  | 类型     | 描述  |
 |------|--------|-----|
 | data | string | 订单号 |
